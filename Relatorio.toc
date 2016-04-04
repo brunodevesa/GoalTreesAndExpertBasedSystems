@@ -1,7 +1,9 @@
 \select@language {portuguese}
-\contentsline {section}{\numberline {1}Introdu\c c\~ao}{4}{section.1}
-\contentsline {subsection}{\numberline {1.1}Objetivos}{4}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Estrutura}{4}{subsection.1.2}
-\contentsline {section}{\numberline {2}Problema 1 [ALTERAR]}{5}{section.2}
-\contentsline {section}{\numberline {3}Projeto 2 [Alterar]}{6}{section.3}
-\contentsline {section}{\numberline {4}Conclus\~ao}{7}{section.4}
+\contentsline {section}{\numberline {I}Abstract}{2}{section.1}
+\contentsline {section}{\numberline {II}Index Terms}{2}{section.2}
+\contentsline {section}{\numberline {III}Introduction}{2}{section.3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Objetivos}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Estrutura}{2}{subsection.3.2}
+\contentsline {section}{\numberline {IV}Problema 1 [ALTERAR]}{3}{section.4}
+\contentsline {section}{\numberline {V}Projeto 2 [Alterar]}{4}{section.5}
+\contentsline {section}{\numberline {VI}Conclus\~ao}{5}{section.6}
