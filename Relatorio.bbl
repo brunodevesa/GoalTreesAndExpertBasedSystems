@@ -1,0 +1,21 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Gersting(2007)}]{Gersting2007}
+Gersting JL (2007) Mathematical Structures for Computer Science: A Modern
+  Approach to Discrete Mathematics, 6th edn. W.H. Freeman \& Company
+
+\bibitem[{Lipschutz and Lipson(2013)}]{Lipschutz2013}
+Lipschutz S, Lipson M (2013) Matemática Discreta, 3rd edn. Bookman
+
+\bibitem[{Rosen(2012)}]{Rosen2012}
+Rosen K (2012) Discrete Mathematics and Its Applications, 7th edn. McGraw-Hill
+
+\end{thebibliography}

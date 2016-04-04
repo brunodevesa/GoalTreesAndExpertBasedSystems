@@ -1,0 +1,119 @@
+\documentclass[a4paper,12pt,notitlepage,twoside]{article}
+
+% ------------ ativar os packages necessarios ----------
+
+\usepackage[latin1]{inputenc} 		% para poder utilizar os caracteres tipicamente portugueses [ç,~,^,...] 
+\usepackage[portuguese]{babel}		% para escrever em Português de Portugal
+\usepackage[T1]{fontenc}			% permite usar a hifenização correcta em português
+
+% Math
+\usepackage{amssymb,amsbsy,amsmath}   % para utilizar matemática
+\usepackage{amsfonts} %para poder fazer o R, Z etc \mathbb{R}	\mathbb{Z} 
+
+% Figures
+\usepackage{graphicx,color}			% para introduzir figuras
+%\usepackage[pdftex,final]{graphicx}      % para introduzir figuras
+%\usepackage[pdftex]{color}         % para introduzir cor
+%\usepackage{wrapfig}						% permite colocar texto ao lado de figuras
+\usepackage{floatflt}
+\usepackage{subfigure, subfloat}
+%\usepackage{subfig}				% para colocar varias imagens tal como o subfigure package mas para poder fazer figuras quebradas
+\usepackage[small]{caption}        % legendas das figuras 
+
+% hyperlinks
+\usepackage{url}
+\usepackage{hyperref}
+
+% Index
+\usepackage{makeidx,showidx} % para criar indice remissivo
+
+% Outros packages
+\usepackage{enumerate}             % para poder utilizar items diferentes da numeração Árabe com o ambiente {enumerate}
+
+\usepackage{longtable }           %supertabular
+\usepackage{lscape}
+\usepackage{array}
+\usepackage{multirow}
+
+
+%--------- cabeçalhos e rodapés nas páginas --------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+			\lhead{ESCOLA-IPP}
+			\chead{ }
+			\rhead{2015/2016}
+			\lfoot{\hrule \vspace*{5pt}  Trabalho de Prático de [COMPLETAR]}
+			\cfoot{}
+			\rfoot{\hrule \vspace*{5pt} \thepage}
+
+% --------------- bibliography style -------------
+\usepackage{natbib}
+\bibliographystyle{spbasic}
+%\bibliographystyle{plain}  %coloca as ref com numeracao[1],[2],...
+%\bibliographystyle{ifac}						% estilo de bibliografia tipo IFAC
+%\usepackage[dcucite]{harvard}					% usado qdo \bibliographystyle{ifac}
+%\bibliographystyle{IEEEtranSN}		            % estilo da bibliografia tipo IEEE
+
+
+
+% ------------- funções matemáticas em portugues -----------
+
+\def \sin {\textnormal{sen}} 
+\def \tan {\textnormal{tg}}
+\def \arcsin {\textnormal{arcsen}} 
+\def \arctan {\textnormal{arctg}}
+\def \cot {\textnormal{cotg}}
+\def \csc {\textnormal{cosec}}
+
+
+\newcommand{\cis}{\textnormal{cis}}
+\newcommand{\sen}{\textnormal{sen}}
+\newcommand{\neper}{\textnormal{e}}
+\newcommand{\dx}{\,\,\textnormal{d}x}
+\newcommand{\arccotg}{\textnormal{arccotg}}
+\newcommand{\arcsec}{\textnormal{arcsec}}
+
+
+% --------------- bibliography style -------------
+\usepackage{natbib}
+%\bibliographystyle{spbasic}
+%\bibliographystyle{ifac}						% estilo de bibliografia tipo IFAC
+%\usepackage[dcucite]{harvard}					% usado qdo \bibliographystyle{ifac}
+%\bibliographystyle{IEEEtranSN}		            % estilo da bibliografia tipo IEEE
+
+% -------------------------------------------------------------
+
+\begin{document}
+
+%--------------------------------------------------
+
+\include{Capa}
+\newpage
+
+%--------------------------------------------------
+\tableofcontents 	% Índice
+\newpage
+
+\listoffigures   	% Lista de figuras
+
+%\newpage
+%\listoftables   	% Lista de tabelas
+\
+%--------------------------------------------------
+
+
+\include{Introducao} %include insere em nova página
+% ------------------------------------------------------------------------------
+\include{Problema1} 
+% ------------------------------------------------------------------------------
+\include{Problema2} 
+% ------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------
+\input{Conclusao}%input insere na mesma página
+% ------------------------------------------------------------------------------
+
+\newpage
+% + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + 
+\bibliography{Bibliografia}
+
+\end{document}
